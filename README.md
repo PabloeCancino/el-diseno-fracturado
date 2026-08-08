@@ -36,6 +36,10 @@ La **Nota Metodológica** (capítulo 01) explica con precisión qué es esta obr
 | 09 | [Conclusión — El contrato generacional roto y el retorno al pacto](capitulos/09_conclusion.md) |
 | 10 | [Apéndices (glosario, guía de sesiones, diagnóstico de salud relacional, objeciones frecuentes, fuentes consolidadas, datos demográficos de México)](capitulos/10_apendices.md) |
 
+## Libro en formato Bookmd
+
+https://pabloecancino.github.io/el-diseno-fracturado/
+
 ## Licencia
 
 Este texto se publica bajo **[Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es)**. Ver [LICENSE.md](LICENSE.md).
