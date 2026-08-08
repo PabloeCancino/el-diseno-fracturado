@@ -19,10 +19,9 @@ El libro no ofrece fórmulas poéticas ni nostalgia por décadas pasadas, sino u
 
 ---
 
-**A Jesús:  
-Quien al principio no tenía dónde recostar su cabeza,  
-y al final tendrá a toda la humanidad a su alrededor, amándole.  
-**
+**A Jesús:**  
+**Quien al principio no tenía dónde recostar su cabeza,**  
+**y al final tendrá a toda la humanidad a su alrededor, amándole.**  
 
 ---
 
