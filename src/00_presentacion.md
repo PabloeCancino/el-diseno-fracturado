@@ -21,3 +21,19 @@ El libro no ofrece fórmulas poéticas ni nostalgia por décadas pasadas, sino u
 Quien al principio no tenía dónde recostar su cabeza,  
 y al final tendrá a toda la humanidad a su alrededor, amándole.  
 *
+
+---
+
+## Licencia
+
+Este texto se publica bajo **[Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es)**. Puedes leer, descargar y compartir el libro completo citando la autoría, siempre que no lo modifiques ni le des uso comercial. Para permisos adicionales (traducción, adaptación, uso comercial), contacta al autor.
+
+## Cómo citar
+
+> Cancino Marentes, P. E. (2026). *El Diseño Fracturado: El diagnóstico relacional de una civilización sola y la respuesta de la comunidad de pacto*. Manuscrito publicado como borrador abierto en GitHub.
+
+## Contacto y comentarios
+
+Este es un **borrador abierto a comentarios**, no una edición final (ver la Nota Metodológica). Si eres teólogo, pastor o lector con formación relevante y encuentras un error doctrinal, exegético o factual, ábrelo como *Issue* en el [repositorio en GitHub](https://github.com/PabloeCancino/el-diseno-fracturado/issues).
+
+Dr. Pablo Eduardo Cancino Marentes — pabloe.cancino@uan.edu.mx
