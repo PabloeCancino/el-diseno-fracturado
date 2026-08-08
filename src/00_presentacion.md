@@ -17,10 +17,12 @@ El libro no ofrece fórmulas poéticas ni nostalgia por décadas pasadas, sino u
 
 **Dr. Pablo Eduardo Cancino Marentes — Agosto 2026**
 
-*A Jesús:  
+---
+
+**A Jesús:  
 Quien al principio no tenía dónde recostar su cabeza,  
 y al final tendrá a toda la humanidad a su alrededor, amándole.  
-*
+**
 
 ---
 
