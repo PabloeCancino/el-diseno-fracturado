@@ -8,7 +8,7 @@
 
 ## Estado de este texto: borrador público para comentarios
 
-Este manuscrito pasó por un proceso de arbitraje crítico interno (ver `evaluacion/` en el historial de revisión del autor) que exigió y obtuvo correcciones mayores antes de esta publicación: el encuadre teológico del grito de desamparo en la cruz (Mateo 27:46), la lectura de Jeremías 2:13, la incorporación de los acompañantes de inteligencia artificial a la tipología de intimidad sustituta, y una Nota Metodológica que declara el público real del libro, el marco eclesial que asume y cuatro fronteras doctrinales que decide no cruzar (pneumatología, hamartiología personal, sacramentología, escatología).
+Este manuscrito pasó por un proceso de arbitraje crítico interno que exigió y obtuvo correcciones mayores antes de esta publicación: el encuadre teológico del grito de desamparo en la cruz (Mateo 27:46), la lectura de Jeremías 2:13, la incorporación de los acompañantes de inteligencia artificial a la tipología de intimidad sustituta, y una Nota Metodológica que declara el público real del libro, el marco eclesial que asume y cuatro fronteras doctrinales que decide no cruzar (pneumatología, hamartiología personal, sacramentología, escatología).
 
 Ese mismo proceso interno recomienda una revisión teológica externa antes de una edición impresa definitiva. Esa revisión todavía no se ha realizado. Por eso este repositorio se publica como **borrador abierto a comentarios**, no como edición final: el objetivo es que la lectura pública —vía [Issues](../../issues)— pueda cumplir en parte esa función mientras se gestiona una revisión formal.
 
