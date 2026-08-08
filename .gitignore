@@ -1,0 +1,10 @@
+# Secretos y configuración local — nunca deben subirse al repo
+.env
+.env.*
+
+# Salida de compilación de mdBook
+/book/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
