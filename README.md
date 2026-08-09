@@ -2,7 +2,7 @@
 
 ### El diagnóstico relacional de una civilización sola y la respuesta de la comunidad de pacto
 
-**Dr. Pablo Eduardo Cancino Marentes — Junio 2026**
+**Dr. Pablo Eduardo Cancino Marentes — Junio 2026**
 
 ---
 

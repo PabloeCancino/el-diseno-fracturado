@@ -6,10 +6,10 @@ Como consecuencia del desarrollo tecnológico, vivimos en el momento de mayor co
 
 A lo largo de sus páginas, *El Diseño Fracturado* rastrea las manifestaciones de este quiebre a través de un diálogo riguroso entre la teología bíblica y las ciencias contemporáneas:
 
-  - **El retiro masculino:** La desorientación del varón ante un sistema que dejó de guiarlo y la consecuente crisis de casabilidad.
-  - **La biología del aislamiento:** El impacto neurobiológico del aislamiento crónico (cortisol elevado, inflamación y un riesgo de mortalidad equivalente a fumar 15 cigarrillos al día) y la trampa de la *intimidad sustituta* (redes, pornografía, afecto animal e IA algorítmica), que calma la sed sin alimentar el organismo.
-  - **La fatiga del rendimiento y el amor líquido:** La transformación del individuo en una “empresa de un solo empleado” y la fragilidad del vínculo en una cultura de consumo.
-  - **El costo económico y político:** El impuesto al soltero, la penalización de la maternidad, el quiebre del contrato generacional (caída demográfica en Asia y América Latina) y la soledad como *caldo de cultivo* para las burbujas ideológicas y el totalitarismo (*Hannah Arendt*).
+- **El retiro masculino:** La desorientación del varón ante un sistema que dejó de guiarlo y la consecuente crisis de casabilidad.
+- **La biología del aislamiento:** El impacto neurobiológico del aislamiento crónico (cortisol elevado, inflamación y un riesgo de mortalidad equivalente a fumar 15 cigarrillos al día) y la trampa de la *intimidad sustituta* (redes, pornografía, afecto animal e IA algorítmica), que calma la sed sin alimentar el organismo.
+- **La fatiga del rendimiento y el amor líquido:** La transformación del individuo en una “empresa de un solo empleado” y la fragilidad del vínculo en una cultura de consumo.
+- **El costo económico y político:** El impuesto al soltero, la penalización de la maternidad, el quiebre del contrato generacional (caída demográfica en Asia y América Latina) y la soledad como *caldo de cultivo* para las burbujas ideológicas y el totalitarismo (*Hannah Arendt*).
 
 Frente al mercado —que comercializa la soledad— y el Estado —que puede financiar pero no *notar tu ausencia*—, la obra sostiene que la respuesta central radica en la **comunidad de pacto**. La Iglesia, en su esencia bíblica, no es una empresa de servicios religiosos, una franquicia de actividades motivacionales ni un auditorio de consumidores aspiracionales, sino una familia basada en la gracia incondicional.
 
@@ -17,12 +17,17 @@ El libro no ofrece fórmulas poéticas ni nostalgia por décadas pasadas, sino u
 
 **Dr. Pablo Eduardo Cancino Marentes — Junio 2026**
 
-*A Jesús:  
-Quien al principio no tenía dónde recostar su cabeza,  
-y al final tendrá a toda la humanidad a su alrededor, amándole.  
-*
+---
+
+*A Jesús:*
+*Quien al principio no tenía dónde recostar su cabeza,*
+*y al final tendrá a toda la humanidad a su alrededor, amándole.*
 
 ---
+
+## Libro en formato Bookmd
+
+https://pabloecancino.github.io/el-diseno-fracturado/
 
 ## Licencia
 

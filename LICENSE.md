@@ -1,6 +1,6 @@
 # Licencia
 
-**El Diseño Fracturado** — Dr. Pablo Eduardo Cancino Marentes — Agosto 2026
+**El Diseño Fracturado** — Dr. Pablo Eduardo Cancino Marentes — Junio 2026
 
 Esta obra está bajo una licencia **Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)**.
 
