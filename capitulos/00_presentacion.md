@@ -15,7 +15,7 @@ Frente al mercado —que comercializa la soledad— y el Estado —que puede fin
 
 El libro no ofrece fórmulas poéticas ni nostalgia por décadas pasadas, sino una **propuesta pastoral practicable**: movimientos concretos sin presupuesto adicional (rebusco económico, tiempo improductivo compartido, hospitalidad de mesa abierta y solitud como defensa espiritual) que permiten pasar de generar audiencias a tejer redes reales donde nadie sea prescindible.
 
-**Dr. Pablo Eduardo Cancino Marentes — Agosto 2026**
+**Dr. Pablo Eduardo Cancino Marentes — Junio 2026**
 
 *A Jesús:  
 Quien al principio no tenía dónde recostar su cabeza,  
