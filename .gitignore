@@ -1,4 +1,4 @@
-# Secretos y configuración local — nunca deben subirse al repo
+# Secretos y configuración local
 .env
 .env.*
 
