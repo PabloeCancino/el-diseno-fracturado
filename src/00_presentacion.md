@@ -35,7 +35,7 @@ Este texto se publica bajo **[Creative Commons Atribución-NoComercial-SinDeriva
 
 ## Cómo citar
 
-> Cancino Marentes, P. E. (2026). *El Diseño Fracturado: El diagnóstico relacional de una civilización sola y la respuesta de la comunidad de pacto*. Manuscrito publicado como borrador abierto en GitHub. https://github.com/PabloeCancino/el-diseno-fracturado
+> Cancino Marentes, P. E. (2026). *El Diseño Fracturado: El diagnóstico relacional de una civilización sola y la respuesta de la comunidad de pacto*. Manuscrito publicado como borrador abierto en GitHub. [https://github.com/PabloeCancino/el-diseno-fracturado](https://pabloecancino.github.io/el-diseno-fracturado/)
 
 ## Contacto y comentarios
 
