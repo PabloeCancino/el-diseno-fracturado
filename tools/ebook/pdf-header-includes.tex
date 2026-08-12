@@ -1,0 +1,10 @@
+% Fuente de reserva para símbolos que DejaVu Serif (la fuente principal del
+% PDF) no incluye, pero que sí existen en DejaVu Sans: triángulo de
+% advertencia (⚠), cruz latina (✝), casilla de verificación (☐) y marca de
+% verificación (✓). Evita recuadros de "carácter faltante" en el PDF.
+\usepackage{newunicodechar}
+\newfontfamily\symbolfallback{DejaVu Sans}
+\newunicodechar{⚠}{{\symbolfallback ⚠}}
+\newunicodechar{✝}{{\symbolfallback ✝}}
+\newunicodechar{☐}{{\symbolfallback ☐}}
+\newunicodechar{✓}{{\symbolfallback ✓}}

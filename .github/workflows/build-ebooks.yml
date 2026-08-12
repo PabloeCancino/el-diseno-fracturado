@@ -1,0 +1,107 @@
+name: Generar PDF, EPUB y versión Kindle
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "src/**"
+      - "book.toml"
+      - "tools/ebook/**"
+      - ".github/workflows/build-ebooks.yml"
+  workflow_dispatch:
+
+# Evita mojibake en acentos (á, é, í, ó, ú, ñ) al pasar metadatos por línea
+# de comandos: sin una configuración regional UTF-8 explícita, algunos
+# entornos decodifican los argumentos como ASCII y los cambian por "?".
+env:
+  LANG: C.UTF-8
+  LC_ALL: C.UTF-8
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "ebooks"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Pandoc
+        uses: r-lib/setup-pandoc@v2
+
+      - name: Instalar LaTeX (PDF) y Calibre (conversión a Kindle)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-xetex \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-lang-spanish \
+            lmodern \
+            fonts-dejavu \
+            calibre
+
+      - name: Preparar carpeta de salida
+        run: mkdir -p dist
+
+      - name: Compilar PDF
+        run: |
+          FILES=$(ls src/*.md | grep -v SUMMARY.md)
+          pandoc $FILES \
+            -o dist/libro.pdf \
+            --lua-filter=tools/ebook/pdf-fixups.lua \
+            --pdf-engine=xelatex \
+            --toc --toc-depth=2 \
+            -V lang=es \
+            -V documentclass=book \
+            -V geometry:margin=2.5cm \
+            -V mainfont="DejaVu Serif" \
+            -H tools/ebook/pdf-header-includes.tex \
+            --metadata title="El Diseño Fracturado" \
+            --metadata subtitle="El diagnóstico relacional de una civilización sola y la respuesta de la comunidad de pacto" \
+            --metadata author="Dr. Pablo Eduardo Cancino Marentes" \
+            --metadata lang=es
+
+      - name: Compilar EPUB
+        run: |
+          FILES=$(ls src/*.md | grep -v SUMMARY.md)
+          pandoc $FILES \
+            -o dist/libro.epub \
+            --toc --toc-depth=2 \
+            --metadata title="El Diseño Fracturado" \
+            --metadata author="Dr. Pablo Eduardo Cancino Marentes" \
+            --metadata lang=es
+
+      - name: Convertir a Kindle (AZW3)
+        run: |
+          ebook-convert dist/libro.epub dist/libro.azw3 \
+            --title "El Diseño Fracturado" \
+            --authors "Dr. Pablo Eduardo Cancino Marentes"
+
+      - name: Subir como artefactos de la ejecución
+        uses: actions/upload-artifact@v4
+        with:
+          name: libro-ebooks
+          path: |
+            dist/libro.pdf
+            dist/libro.epub
+            dist/libro.azw3
+
+      - name: Publicar en un Release descargable
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ebook
+          name: "Libro — versión descargable (PDF / EPUB / Kindle)"
+          body: |
+            Generado automáticamente desde el commit ${{ github.sha }}.
+            Estos archivos se actualizan solos con cada cambio en `src/` (ver la fecha de esta publicación arriba).
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: "dist/libro.pdf,dist/libro.epub,dist/libro.azw3"
+          token: ${{ secrets.GITHUB_TOKEN }}
