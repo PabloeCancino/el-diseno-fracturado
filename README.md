@@ -22,6 +22,8 @@ La **Nota Metodológica** (capítulo 01) explica con precisión qué es esta obr
 
 ## Descargas
 
+[![Compilar y Forzar Renderizado de eBooks](https://img.shields.io/badge/⚡_Forzar_Renderizado-Ejecutar_GitHub_Actions-2ea44f?style=for-the-badge&logo=github-actions)](https://github.com/PabloeCancino/el-diseno-fracturado/actions/workflows/build-ebooks.yml)
+
 Cada vez que se actualiza el contenido en `src/`, un flujo de trabajo de GitHub Actions ([`build-ebooks.yml`](https://github.com/PabloeCancino/el-diseno-fracturado/blob/main/.github/workflows/build-ebooks.yml)) recompila el libro completo y publica las tres versiones descargables en la [sección de Releases](https://github.com/PabloeCancino/el-diseno-fracturado/releases/tag/ebook) de este repositorio. Los enlaces de abajo apuntan siempre a la versión más reciente:
 
 | Formato | Enlace de descarga | Uso recomendado |
