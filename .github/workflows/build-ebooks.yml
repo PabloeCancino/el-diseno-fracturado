@@ -32,13 +32,11 @@ jobs:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
 
-      - name: Instalar Pandoc
-        uses: r-lib/setup-pandoc@v2
-
-      - name: Instalar LaTeX (PDF) y Calibre (conversión a Kindle)
+      - name: Instalar Pandoc, LaTeX (PDF) y Calibre (conversión a Kindle)
         run: |
           sudo apt-get update
           sudo apt-get install -y \
+            pandoc \
             texlive-xetex \
             texlive-latex-recommended \
             texlive-latex-extra \
