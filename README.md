@@ -22,7 +22,7 @@ La **Nota Metodológica** (capítulo 01) explica con precisión qué es esta obr
 
 ## Descargas
 
-Cada vez que se actualiza el contenido en `src/`, un flujo de trabajo de GitHub Actions ([`build-ebooks.yml`](.github/workflows/build-ebooks.yml)) recompila el libro completo y publica las tres versiones descargables en la [sección de Releases](https://github.com/PabloeCancino/el-diseno-fracturado/releases/tag/ebook) de este repositorio. Los enlaces de abajo apuntan siempre a la versión más reciente:
+Cada vez que se actualiza el contenido en `src/`, un flujo de trabajo de GitHub Actions ([`build-ebooks.yml`](https://github.com/PabloeCancino/el-diseno-fracturado/blob/main/.github/workflows/build-ebooks.yml)) recompila el libro completo y publica las tres versiones descargables en la [sección de Releases](https://github.com/PabloeCancino/el-diseno-fracturado/releases/tag/ebook) de este repositorio. Los enlaces de abajo apuntan siempre a la versión más reciente:
 
 | Formato | Enlace de descarga | Uso recomendado |
 |---|---|---|
@@ -36,17 +36,17 @@ Cada vez que se actualiza el contenido en `src/`, un flujo de trabajo de GitHub 
 
 | # | Capítulo |
 |---|----------|
-| 00 | [Presentación](capitulos/00_presentacion.md) |
-| 01 | [Nota metodológica y declaración de alcance](capitulos/01_nota_metodologica.md) |
-| 02 | [Introducción — El diagnóstico del alma contemporánea](capitulos/02_introduccion.md) |
-| 03 | [Capítulo 1 — El varón retirado y la crisis de casabilidad](capitulos/03_capitulo1_el_varon_retirado.md) |
-| 04 | [Capítulo 2 — El cerebro bajo alerta y la intimidad sustituta](capitulos/04_capitulo2_el_cerebro_bajo_alerta.md) |
-| 05 | [Capítulo 3 — El amor líquido y la fatiga del rendimiento](capitulos/05_capitulo3_el_amor_liquido.md) |
-| 06 | [Capítulo 4 — El impuesto al soltero y la economía del quiebre](capitulos/06_capitulo4_el_impuesto_al_soltero.md) |
-| 07 | [Capítulo 5 — La soledad como caldo del totalitarismo](capitulos/07_capitulo5_la_soledad_totalitarismo.md) |
-| 08 | [Capítulo 6 — El rediseño comunitario](capitulos/08_capitulo6_el_rediseno_comunitario.md) |
-| 09 | [Conclusión — El contrato generacional roto y el retorno al pacto](capitulos/09_conclusion.md) |
-| 10 | [Apéndices (glosario, guía de sesiones, diagnóstico de salud relacional, objeciones frecuentes, fuentes consolidadas, datos demográficos de México)](capitulos/10_apendices.md) |
+| 00 | [Presentación](src/00_presentacion.md) |
+| 01 | [Nota metodológica y declaración de alcance](src/01_nota_metodologica.md) |
+| 02 | [Introducción — El diagnóstico del alma contemporánea](src/02_introduccion.md) |
+| 03 | [Capítulo 1 — El varón retirado y la crisis de casabilidad](src/03_capitulo1_el_varon_retirado.md) |
+| 04 | [Capítulo 2 — El cerebro bajo alerta y la intimidad sustituta](src/04_capitulo2_el_cerebro_bajo_alerta.md) |
+| 05 | [Capítulo 3 — El amor líquido y la fatiga del rendimiento](src/05_capitulo3_el_amor_liquido.md) |
+| 06 | [Capítulo 4 — El impuesto al soltero y la economía del quiebre](src/06_capitulo4_el_impuesto_al_soltero.md) |
+| 07 | [Capítulo 5 — La soledad como caldo del totalitarismo](src/07_capitulo5_la_soledad_totalitarismo.md) |
+| 08 | [Capítulo 6 — El rediseño comunitario](src/08_capitulo6_el_rediseno_comunitario.md) |
+| 09 | [Conclusión — El contrato generacional roto y el retorno al pacto](src/09_conclusion.md) |
+| 10 | [Apéndices (glosario, guía de sesiones, diagnóstico de salud relacional, objeciones frecuentes, fuentes consolidadas, datos demográficos de México)](src/10_apendices.md) |
 
 ## Libro en formato Bookmd
 
