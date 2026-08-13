@@ -1,3 +1,4 @@
+# Workflow de compilación automática de ebooks (PDF, EPUB, AZW3)
 name: Generar PDF, EPUB y versión Kindle
 
 on:
